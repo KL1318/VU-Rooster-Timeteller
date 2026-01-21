@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "VU Rooster timeteller",
+    "version": "1.0",
+    "author": "KLM1318",
+    "description": "Adds a simple bar to https://www.rooster.vu.nl/schedule that shows what the time is and how the current time relates to your schedule.",
+
+    "content_scripts": [
+        {
+            "matches": ["https://rooster.vu.nl/schedule"],
+            "js": ["contentscript.js"]
+        }
+    ]
+}
