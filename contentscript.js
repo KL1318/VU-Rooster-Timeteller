@@ -9,7 +9,7 @@ timeLine.style.position = "absolute";
 timeLine.style.width = "100%";
 timeLine.style.height = "2px";
 
-let constantChecking = setInterval(function applyChanges() {
+let loadBar = setInterval(function applyChanges() {
     const date = new Date();
     let hours = date.getHours();
     let minutes = date.getMinutes();
