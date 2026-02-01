@@ -3,7 +3,7 @@
     "name": "VU Rooster Timeteller",
     "version": "1.0.0",
     "author": "Ewout",
-    "description": "Adds a simple bar to https://www.rooster.vu.nl/schedule that shows what the time is and how the current time relates to your schedule.",
+    "description": "Adds a simple bar to https://www.rooster.vu.nl/schedule that shows what the time is and how the current time relates to your schedule. This extension is open source! Find it here: https://github.com/KL1318/VU-Rooster-Timeteller",
 
     "content_scripts": [
         {
