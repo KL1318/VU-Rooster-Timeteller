@@ -10,7 +10,7 @@ timeLine.style.width = "100%";
 timeLine.style.height = "2px";
 
 let loadBar = setInterval(function applyChanges() {
-    const date = new Date("February 2, 2026 18:13:00");
+    const date = new Date();
     const data = {
         hour: date.getHours(),
         minute: date.getMinutes(),
