@@ -17,7 +17,7 @@
             "id": "rooster_timeteller@VU.CS",
             "strict_min_version": "23",
             "data_collection_permissions": {
-                "required": "none"
+                "required": ["none"]
             }
         }
     }
