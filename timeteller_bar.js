@@ -16,6 +16,7 @@ let loadBar = setInterval(function applyChanges() {
         minute: date.getMinutes(),
         day: date.getDay() + 1
     };
+    if (data.day === 1 || data.day === 7) { clearInterval(loadBar); };
     const total_minutes = data.hour * 60 + data.minute + 7;
     // +7 because for some reason, the bar seems to be about 7 minutes off without it.
     let dayPercentage = total_minutes / MINUTES_IN_DAY * 100 - 1;
