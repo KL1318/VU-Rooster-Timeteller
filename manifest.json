@@ -8,7 +8,7 @@
     "content_scripts": [
         {
             "matches": ["https://rooster.vu.nl/schedule"],
-            "js": ["contentscript.js"]
+            "js": ["timeteller_bar.js"]
         }
     ]
 }
