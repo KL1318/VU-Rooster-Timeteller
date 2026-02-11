@@ -4,7 +4,7 @@ const timeLine = document.createElement("hr");
 timeLine.setAttribute("id", "timeLine");
 timeLine.style.background = "rgba(0, 0, 0, 0.7)";
 timeLine.style.border = "rgba(0, 0, 0, 0.7)";
-timeLine.style.zIndex = 10;
+timeLine.style.zIndex = 0;
 timeLine.style.position = "absolute";
 timeLine.style.width = "100%";
 timeLine.style.height = "2px";

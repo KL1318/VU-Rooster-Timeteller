@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Timeteller for VU Rooster",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "Ewout",
     "description": "Adds a simple bar to https://rooster.vu.nl/schedule that shows what the time is and how the current time relates to your schedule. This extension is in no way, shape or form tied to the VU University Amsterdam nor its digital products. This extension is made solely for creating additional content on the Rooster (schedule) website for vu.nl. This extension is open source! Find it here: https://github.com/KL1318/VU-Rooster-Timeteller",
 
